@@ -1,0 +1,179 @@
+:root {
+  /* Color Scheme - FizioWell Brand */
+  --primary-teal: #0097A9;
+  --secondary-green: #6BAA3D;
+  --white: #ffffff;
+  --text-dark: #0f2627;
+  --text-gray: #4a5f61;
+  --text-light: #7a8d8f;
+  --bg-light: #f8fbfc;
+  --bg-lighter: #f1f6f7;
+  --border-color: #e0ecef;
+  --shadow-sm: 0 1px 3px rgba(15, 38, 39, 0.08);
+  --shadow-md: 0 4px 12px rgba(15, 38, 39, 0.12);
+  --shadow-lg: 0 12px 32px rgba(0, 151, 169, 0.15);
+  --shadow-xl: 0 20px 48px rgba(0, 151, 169, 0.2);
+  
+  /* Typography */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  
+  /* Colors */
+  color: var(--text-dark);
+  background-color: var(--white);
+  
+  /* Rendering */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--white);
+}
+
+a {
+  color: var(--primary-teal);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-green);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.7px;
+  color: var(--text-dark);
+}
+
+h1 { font-size: 4rem; font-weight: 800; letter-spacing: -1.2px; }
+h2 { font-size: 3rem; font-weight: 700; }
+h3 { font-size: 1.75rem; font-weight: 600; }
+h4 { font-size: 1.4rem; }
+
+p {
+  color: var(--text-gray);
+  margin-bottom: 1.25rem;
+}
+
+button {
+  background-color: var(--primary-teal);
+  color: var(--white);
+  border: 2px solid transparent;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+  letter-spacing: 0.4px;
+  box-shadow: 0 4px 16px rgba(0, 151, 169, 0.3);
+}
+
+button:hover {
+  background-color: var(--secondary-green);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(107, 170, 61, 0.35);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.3rem; }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--white);
+}
+
+a {
+  color: var(--primary-teal);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-green);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.5px;
+}
+
+h1 { font-size: 3.5rem; font-weight: 700; }
+h2 { font-size: 2.5rem; font-weight: 600; }
+h3 { font-size: 1.5rem; font-weight: 600; }
+h4 { font-size: 1.25rem; }
+
+p {
+  color: var(--text-gray);
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: var(--primary-teal);
+  color: var(--white);
+  border: 2px solid transparent;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
+  letter-spacing: 0.3px;
+}
+
+button:hover {
+  background-color: var(--secondary-green);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.25rem; }
+}
