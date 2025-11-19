@@ -113,12 +113,14 @@ button:active {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   line-height: 1.6;
   color: var(--text-dark);
   background-color: var(--white);
+  overflow-x: hidden;
 }
 
 a {

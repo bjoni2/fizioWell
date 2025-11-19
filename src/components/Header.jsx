@@ -6,6 +6,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <header className="header">
@@ -19,18 +20,17 @@ export default function Header() {
           <button 
             className="menu-toggle" 
             onClick={toggleMenu}
-            aria-label="Toggle menu"
+            aria-label="Hap menunë"
           >
             ☰
           </button>
 
           <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
-            <a href="#home">Home</a>
-            <a href="#services">Specialitetet</a>
-            <a href="#about">Rreth Nesh</a>
-            <a href="#therapist">Fizioterapisti</a>
-            <a href="#testimonials">Përvojat</a>
-            <a href="#contact">Kontakti</a>
+            <a href="/#home" onClick={closeMenu}>Home</a>
+            <a href="/#services" onClick={closeMenu}>Shërbimet</a>
+            <a href="/#about" onClick={closeMenu}>Rreth Nesh</a>
+            <a href="/#therapist" onClick={closeMenu}>Fizioterapisti</a>
+            <a href="/#contact" onClick={closeMenu}>Kontakti</a>
           </nav>
         </div>
       </div>

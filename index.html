@@ -1,16 +1,130 @@
 <!doctype html>
-<html lang="en">
+<html lang="sq">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="FizioWell - Professional physiotherapy and rehabilitation clinic in Albania. Expert care for pain relief, injury recovery, and wellness." />
-    <meta name="keywords" content="physiotherapy, rehabilitation, physical therapy, Albania, clinic, wellness" />
+    <meta name="description" content="FizioWell - Klinikë profesionale fizioterapie dhe rehabilitimi në Tiranë, Shqipëri. Shërbime ekspertë për lehtësimin e dhimbjes, rikuperimin e lëndimeve dhe wellness." />
+    <meta name="keywords" content="fizioterapie, rehabilitim, terapie fizike, Shqipëri, klinikë, wellness, Alvi Thanasi" />
     <meta name="author" content="FizioWell Clinic" />
-    <meta property="og:title" content="FizioWell - Physiotherapy Clinic" />
-    <meta property="og:description" content="Professional physiotherapy services in Albania" />
+    <meta name="theme-color" content="#0097A9" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fiziowellclinic.al/" />
+    <meta property="og:title" content="FizioWell - Klinikë Fizioterapie Profesionale në Tiranë" />
+    <meta property="og:description" content="Rehabilitim dhe shërim fiziologjik profesional. Mbi 5 vite përvojë në terapi ortopedike, neurologjike dhe rehabilitim sportiv." />
+    <meta property="og:image" content="https://fiziowellclinic.al/og-image.jpg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FizioWell - Klinikë Fizioterapie" />
+    <meta name="twitter:description" content="Rehabilitim profesional dhe shërim fiziologjik në Tiranë" />
+    
+    <!-- Structured Data - Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "FizioWell",
+      "image": "https://fiziowellclinic.al/logo.jpg",
+      "description": "Klinikë profesionale fizioterapie dhe rehabilitimi në Tiranë",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rruga Petro Korçari",
+        "addressLocality": "Tiranë",
+        "addressRegion": "Tiranë",
+        "postalCode": "1060",
+        "addressCountry": "AL"
+      },
+      "telephone": "+355-XXXXXXXXX",
+      "email": "info@fiziowellclinic.al",
+      "url": "https://fiziowellclinic.al",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [" e Hënë", "e Martë", "e Mërkurë", "e Enjte", "e Premte"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "e Shtunë",
+          "opens": "09:00",
+          "closes": "16:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "e Diel",
+          "opens": "00:00",
+          "closes": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/fiziowellclinic",
+        "https://www.facebook.com/fiziowellclinic"
+      ],
+      "medicalSpecialty": ["PhysicalTherapy", "Rehabilitation"],
+      "knownFor": ["Rehabilitim Ortopedik", "Fiziologji Neurologjike", "Terapi Manuale", "Rehabilitim Sportiv"],
+      "areaServed": ["AL"]
+    }
+    </script>
+    
+    <!-- Structured Data - Medical Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "FizioWell",
+      "url": "https://fiziowellclinic.al",
+      "description": "Shërbime fizioterapie profesionale",
+      "medicalSpecialty": [
+        "PhysicalTherapy",
+        "Rehabilitation",
+        "Sports Medicine"
+      ],
+      "staff": {
+        "@type": "Person",
+        "name": "Alvi Thanasi",
+        "jobTitle": "Fizioterapist - Specialist Rehabilitimi",
+        "qualifications": [
+          "Bachelor në Fizioterapi",
+          "Master në Rehabilitim Fiziologjik",
+          "Certifikim në Terapi Manuale",
+          "Specializim në Neurologji Fizioterapi"
+        ]
+      }
+    }
+    </script>
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FizioWell",
+      "url": "https://fiziowellclinic.al",
+      "logo": "https://fiziowellclinic.al/logo.jpg",
+      "description": "Klinikë fizioterapie profesionale në Tiranë, Shqipëri",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "+355-XXXXXXXXX",
+        "email": "info@fiziowellclinic.al",
+        "areaServed": "AL"
+      }
+    }
+    </script>
+
+    <!-- Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <title>FizioWell - Professional Physiotherapy Clinic in Albania</title>
+    <title>FizioWell - Klinikë Fizioterapie Profesionale në Tiranë, Shqipëri</title>
   </head>
   <body>
     <div id="root"></div>

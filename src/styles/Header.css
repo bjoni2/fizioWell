@@ -120,6 +120,9 @@
     display: none;
     border-bottom: 1px solid var(--border-color);
     box-shadow: 0 8px 24px rgba(15, 38, 39, 0.12);
+    z-index: 99;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
   }
 
   .nav.open {
