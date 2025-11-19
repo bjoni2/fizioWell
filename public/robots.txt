@@ -15,4 +15,4 @@ User-agent: Bingbot
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://fiziowellclinic.al/sitemap.xml
+Sitemap: https://fiziowell.com/sitemap.xml
