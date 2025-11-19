@@ -51,7 +51,7 @@ function AppContent() {
 
           <div className="container">
             <div className="hero-content">
-              <h1>Rehabilitim dhe Mirëqenie Fizike</h1>
+              <h1>Rehabilitim dhe Mirëqënie Fizike</h1>
               <p>Rikthehuni në formën tuaj optimale me terapi profesionale të përqendruar në rezultate</p>
               <button className="hero-cta" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Kontakto Tani</button>
             </div>
